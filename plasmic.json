@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -942,7 +942,7 @@
           "id": "5Im_iZjtfn05",
           "name": "Carousel",
           "displayName": "Carousel",
-          "componentImportPath": "@/components/Carousel"
+          "componentImportPath": "../components/Carousel"
         }
       ],
       "customFunctions": []
