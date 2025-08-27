@@ -1,0 +1,42 @@
+.itemAmount {
+  background: rgba(255, 0, 46, 1);
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  column-gap: 4px;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+.itemAmountlater {
+  background: #ffeaef;
+}
+.itemAmountcomingSoon {
+  background: #7569a0;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 6px;
+  height: 6px;
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.svgliveNow {
+  display: block;
+}
+.slotTargetChildren {
+  font-family: "PPRightGrotesk-Bold";
+  font-size: 14px;
+  color: #ffffff;
+  white-space: pre;
+  line-height: 1.4;
+}
+.slotTargetChildrenlater {
+  color: #ff002e;
+}

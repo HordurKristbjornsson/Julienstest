@@ -1,0 +1,301 @@
+.frame10737 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 372px;
+  position: relative;
+  flex-grow: 0;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .frame10737 {
+    width: 290px;
+    min-width: 290px;
+    height: auto;
+    flex-grow: 0;
+  }
+}
+.frame10737:hover {
+  transform: translateX(0px) translateY(-20px) translateZ(0px);
+  overflow: visible;
+}
+.frame63237 {
+  background: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 533px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 4px;
+  padding: 16px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .frame63237 {
+    height: auto;
+    row-gap: 8px;
+    column-gap: 0px;
+  }
+}
+.frame10814 {
+  width: 372px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  column-gap: 4px;
+  flex-wrap: wrap;
+  row-gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .frame10814 {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.freeBox__ijN4L {
+  background: url("/plasmic/blank_website/images/theNewYorkerLogo1.png") center center / cover no-repeat;
+  width: 186px;
+  height: 36px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.text__acpCd {
+  font-size: 20px;
+  text-align: center;
+  font-family: "PP Right Grotesk Casual Variable";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1.399999976158142;
+  color: rgba(35, 0, 70, 1);
+  position: relative;
+  width: 372px;
+  flex-shrink: 0;
+  display: none;
+}
+.frame63238 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .frame63238 {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.svg__vdl8H {
+  object-fit: cover;
+  max-width: 100%;
+  color: #e6e5ee;
+  width: 100%;
+  height: 1px;
+  display: block;
+  position: relative;
+  flex-grow: 1;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__vdl8H {
+    width: 40px;
+    flex-shrink: 0;
+  }
+}
+.frame63239 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  column-gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.freeBox__lVkD6 {
+  display: flex;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__lVkD6 {
+    width: auto;
+  }
+}
+.slotTargetDate {
+  font-family: "PPRightGrotesk-Bold";
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(117, 105, 160, 1);
+  line-height: 1.399999976158142;
+  letter-spacing: 0em;
+  white-space: pre;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetDate {
+    white-space: pre;
+  }
+}
+.svg__mjJye {
+  object-fit: cover;
+  max-width: 100%;
+  color: #e6e5ee;
+  width: 100%;
+  height: 1px;
+  display: block;
+  position: relative;
+  flex-grow: 1;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__mjJye {
+    width: 40px;
+    flex-shrink: 0;
+  }
+}
+.frame10981 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  row-gap: 8px;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+.headline4 {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  height: 84px;
+  min-width: 0;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .headline4 {
+    height: 66px;
+    flex-shrink: 0;
+  }
+}
+.slotTargetHeadline {
+  font-family: "PPRightGrotesk-NarrowDark";
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(35, 0, 70, 1);
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.2000000476837158;
+  letter-spacing: 0em;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetHeadline {
+    font-size: 20px;
+  }
+}
+.freeBox__a65Fv {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: stretch;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__g8Wht {
+  background: url("/plasmic/blank_website/images/neimansStageBarPainting45706581.jpg") center center / cover no-repeat;
+  height: 234px;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  border-radius: 4px;
+}
+.frame63240 {
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+}
+.freeBox__tl3Da {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.slotTargetBodyText {
+  font-family: "PPRightGrotesk-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(35, 0, 70, 1);
+  text-align: center;
+  line-height: 1.399999976158142;
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetBodyText {
+    font-size: 12px;
+  }
+}
+.svg__fvWzc {
+  object-fit: cover;
+  max-width: 100%;
+  color: #e6e5ee;
+  width: 372px;
+  height: 1px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.button2:global(.__wab_instance) {
+  height: 32px;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__akvYx {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.svg__fmz1Y {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}

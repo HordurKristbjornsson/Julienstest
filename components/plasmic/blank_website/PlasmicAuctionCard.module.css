@@ -1,0 +1,256 @@
+.auctionCard {
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 8px;
+  flex-direction: column;
+  display: flex;
+  height: auto;
+  width: 100%;
+  max-width: 700px;
+  min-width: 326px;
+  border-radius: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .auctionCard {
+    max-width: 326px;
+  }
+}
+.frame10240 {
+  background: rgba(230, 229, 238, 1);
+  height: 340px;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  transition-property: background;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  flex-shrink: 0;
+  -webkit-transition-property: background;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.2s;
+  border-radius: 2px;
+}
+@media (max-width: 1439px) {
+  .frame10240 {
+    height: 300px;
+    flex-shrink: 0;
+  }
+}
+.auctionCard:hover .frame10240 {
+  background: #7569a0;
+  transform: scaleX(1) scaleY(1) scaleZ(1);
+}
+.imagePerson2 {
+  display: block;
+  position: absolute;
+  flex-grow: 1;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox___0U66K {
+  background: url("/plasmic/blank_website/images/_1D192615F768D4Cb378Ebe07Ed7Dfcec7F36D33D1080X1080Png.png") center center / contain no-repeat;
+  display: block;
+  position: absolute;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  transform: none;
+  transition-property: transform;
+  transition-duration: 1s;
+  min-width: 0;
+  min-height: 0;
+  -webkit-transition-property: transform;
+  -webkit-transition-duration: 1s;
+  border-radius: 4px;
+}
+.freeBox__ke1Ru {
+  background: rgba(255, 0, 46, 1);
+  width: auto;
+  height: auto;
+  position: absolute;
+  overflow: visible;
+  left: auto;
+  top: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+  bottom: 20px;
+  right: auto;
+  display: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+.freeBox__goQmE {
+  width: auto;
+  display: flex;
+  position: relative;
+  left: auto;
+  top: auto;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  column-gap: 4px;
+}
+.text__wv7X4 {
+  opacity: 0;
+  display: block;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "PP Right Grotesk Tall Variable";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 0.75;
+  color: rgba(35, 0, 70, 1);
+  position: relative;
+}
+.text__d72YH {
+  display: block;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "PP Right Grotesk Tall Variable";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 0.75;
+  color: rgba(35, 0, 70, 1);
+  position: relative;
+  white-space: pre;
+}
+.frame63301 {
+  width: 100%;
+  height: 28px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.statusAuctionCard__f1LB:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.text__fkPg8 {
+  line-height: 1.4;
+  font-weight: 700;
+}
+.itemAmount2 {
+  box-shadow: inset 0px 0px 0px 1px rgba(230, 229, 238, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  column-gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+.text {
+  display: block;
+  font-size: 14px;
+  font-family: "PPRightGrotesk-Bold";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1.399999976158142;
+  color: rgba(117, 105, 160, 1);
+  position: relative;
+}
+.frame63168 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  row-gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame63179 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  column-gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-width: 0;
+  border-top: 1px solid #e6e5ee;
+  border-bottom: 1px solid #e6e5ee;
+}
+.slotTargetDate {
+  font-family: "PPRightGrotesk-NarrowDark";
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(117, 105, 160, 1);
+  text-transform: uppercase;
+  line-height: 1.100000023841858;
+  letter-spacing: 0em;
+}
+.frame11007 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  row-gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.auctionTitle {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: row;
+}
+.slotTargetChildren {
+  font-family: "PPRightGrotesk-TallDark";
+  font-size: 64px;
+  font-weight: 700;
+  color: rgba(35, 0, 70, 1);
+  text-transform: uppercase;
+  line-height: 0.8500000238418579;
+  letter-spacing: 0em;
+}
+@media (max-width: 1439px) {
+  .slotTargetChildren {
+    font-size: 40px;
+  }
+}
+.frame63178 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  column-gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title5 {
+  display: block;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "PP Right Grotesk Tall Variable";
+  letter-spacing: 0em;
+  line-height: 0.8500000238418579;
+  color: rgba(255, 0, 46, 1);
+  position: relative;
+}
